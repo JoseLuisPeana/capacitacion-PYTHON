@@ -82,3 +82,9 @@ print(cafe[columnas_de_interes].isnull().sum())
 
 #print("\n --- Conteo de nulos despues de limpiar la columna Total Spent ---")
 #print(cafe.isnull().sum()
+
+#############
+#Reducir los NAN de >"Item tomando como base el valor de Price Per Unit"
+#cafe.to_csv("Ventas de cafe limpio.csv"),index = False
+
+#############
