@@ -1,0 +1,19 @@
+# Entorno virtual
+venv/
+
+# Python basura
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# CSV datasets
+*.csv
+
+# Sistema
+.DS_Store
+Thumbs.db

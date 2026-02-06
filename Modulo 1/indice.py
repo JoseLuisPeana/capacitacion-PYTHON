@@ -1,6 +1,6 @@
 meses=["enero","febrero","marzo"]
 
-indice = 6
+indice = 2
 
 if indice <len(meses):
     print(f"El mes en el índice {indice} es: {meses[indice]}")

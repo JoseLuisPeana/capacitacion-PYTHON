@@ -33,3 +33,11 @@ precio_final = libreria["catalogo"][0]["precios"][2] * 1.16  # Precio digital de
 print(f"El precio final del primer libro (tapa blanda con IVA) es: ${precio_final:.2f}")
 print(f"precio_final")
 
+
+L = [1,2,3,4,5] #
+#acceder a -1  en negativo
+
+print(L[:-1])  # Imprime 5
+#print(L[])
+
+#

@@ -17,3 +17,8 @@ total = precio + impuesto  # Concatenación de strings
 total_2 = precio + "100"  # Concatenación de strings
 
 concatenar  = "banana" + "del " + "chocolate"
+
+
+print(f"Total (concatenación): {total_2}")
+print(f"Concatenación de strings: {concatenar}")
+print(f"El tipo de 'precio' es: {type(precio)}") 
