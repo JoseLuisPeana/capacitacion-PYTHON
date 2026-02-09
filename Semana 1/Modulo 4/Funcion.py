@@ -30,3 +30,9 @@ def concatenar_archivos_csv(carpeta_input,nombre_archivo_salida):
 ruta_entrada = "./Sales_Data"
 name_file_output = "Reporte_Ventas_2019.csv"
 mi_csv_unido = concatenar_archivos_csv(ruta_entrada, name_file_output)
+''''
+crear una funcion en python como la que se creo en el archivo funcion.py
+
+peor en vez de usar las librerias y metodos de pathlib, se van a usar la libreria y metodos de os y glob.
+nota :no haver limpieza
+'''
