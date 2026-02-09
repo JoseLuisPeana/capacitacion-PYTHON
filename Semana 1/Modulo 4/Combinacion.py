@@ -42,17 +42,14 @@ print(df_anual.info())
 convertir = ['Quantity Ordered', 'Price Each'] # esto es para ver los valores únicos en la columna Item después de la limpieza
 print(convertir)
 
-
 df_anual ['Quantity Ordered'] = pd.to_numeric(df_anual['Quantity Ordered'], errors='coerce') 
 df_anual['Price Each'] = pd.to_numeric(df_anual['Price Each'], errors='coerce') #lo convierte a float
 df_anual['Order Date'] =  pd.to_datetime(df_anual['Order Date'], errors='coerce', format='%Y/%m/%d %H:%M') # convertir la fecha en su orden  con su hora
 
 #df_anual['Order ID'] = pd.to_numeric(df_anual['Order ID'], errors='coerce')
-
 df_anual['Order ID'] = ( pd.to_numeric(df_anual['Order ID'], errors='coerce').astype('Int64'))
 
 print("-----------------------------")
-
 print(df_anual.info())
 
 df_anual['Mes'] = df_anual['Order Date'] # crear una nueva columna llamada 
@@ -63,3 +60,8 @@ ts = pd.to_datetime(df_anual['Order Date'], errors='coerce', format='%m/%d/%y %H
 print("---"*60)
 
 print(df_anual.info()) # esto es para ver los valores únicos en la columna mes
+
+#ventas_por_hora = df df_anual.grouby("")
+
+print("\nVentas por hora")
+print(ventas_por_hora)
